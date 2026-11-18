@@ -1,0 +1,71 @@
+{
+  "name": "Dálej Úníor",
+  "class": "Artificer",
+  "level": 1,
+  "race": "Stonewood Porcelain",
+  "background": "Guild Artisan",
+  "alignment": "Chaotic Good",
+  "player": "Your Name",
+  "ability_scores": {
+    "Strength": 10,
+    "Dexterity": 12,
+    "Constitution": 14,
+    "Intelligence": 16,
+    "Wisdom": 10,
+    "Charisma": 8
+  },
+  "proficiencies": {
+    "armor": ["Light", "Medium"],
+    "weapons": ["Simple", "Alchemical tools"],
+    "tools": ["Smith's tools", "Woodcarver's tools", "Porcelain sculpting kit"],
+    "saving_throws": ["Constitution", "Intelligence"],
+    "skills": ["Arcana", "History", "Investigation", "Perception"]
+  },
+  "racial_traits": [
+    "Stone Skin: Advantage on Con saves vs. poison, resistance to poison damage",
+    "Wooden Reflexes: +1 AC when not wearing heavy armor",
+    "Porcelain Fragility: Vulnerable to fire damage (extra 1d4 when hit by fire)",
+    "Tool Proficiencies: Stonecutting Tools, Woodcarver Tools, Porcelain Sculpting Kit",
+    "Languages: Common + one of Stone‑Language, Wood‑Language, Porcelain‑Language",
+    "Stonewood Resilience: Can't be frightened while not incapacitated"
+  ],
+  "class_features": {
+    "spellcasting": {
+      "ability": "Intelligence",
+      "save_dc": 13,
+      "attack_bonus": 5,
+      "cantrips": ["Mage Hand", "Mending", "Poison Spray", "Light"],
+      "spells": {
+        "1st": ["Cure Wounds", "Detect Magic", "Tasha’s Hideous Laughter", "Searing Smite"]
+      }
+    },
+    "infusion": "Alchemical Fire",
+    "magical_tinkering": "Adds a small magical trinket to an item"
+  },
+  "equipment": {
+    "items": [
+      {"name": "Light Crossbow", "quantity": 1, "notes": "+0 attack, 1d8 damage"},
+      {"name": "Leather Armor", "quantity": 1, "notes": "AC 12 + Dex modifier"},
+      {"name": "Smith's Tools", "quantity": 1, "notes": ""},
+      {"name": "Woodcarver's Tools", "quantity": 1, "notes": ""},
+      {"name": "Porcelain Sculpting Kit", "quantity": 1, "notes": ""},
+      {"name": "Spell Component Pouch", "quantity": 1, "notes": ""},
+      {"name": "Adventuring Gear (backpack, bedroll, rations, etc.)", "quantity": 1, "notes": ""}
+    ]
+  },
+  "combat_stats": {
+    "ac": 13,
+    "initiative": 1,
+    "speed": "30 ft",
+    "hp": 10,
+    "attacks": [
+      {"name": "Light Crossbow", "to_hit": 5, "damage": "1d8+3 piercing"}
+    ]
+  },
+  "personality": {
+    "traits": "Curious tinkerer, always eager to learn a new craft.",
+    "ideal": "Knowledge – the path to power and protection.",
+    "bond": "I owe a debt to the guild that taught me my first spell.",
+    "flaw": "Impulsively tries every new invention, sometimes forgetting safety protocols."
+  }
+}

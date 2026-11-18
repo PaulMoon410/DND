@@ -1,0 +1,68 @@
+{
+  "name": "Dálej Úníor",
+  "race": "Stonewood Porcelain",
+  "class": "Artificer",
+  "level": 1,
+  "abilityScores": {
+    "STR": 10,
+    "DEX": 14,
+    "CON": 16,
+    "INT": 18,
+    "WIS": 12,
+    "CHA": 8
+  },
+  "skills": {
+    "Arcana": 8,
+    "Investigation": 8,
+    "Perception": 5,
+    "Survival": 5
+  },
+  "proficiencies": {
+    "armor": "Light",
+    "weapons": ["Light Crossbow"],
+    "tools": ["Stonecutting", "Woodcarving", "Porcelain Sculpting"],
+    "languages": ["Common", "Stone-Language", "Wood-Language", "Porcelain-Language"]
+  },
+  "combat": {
+    "AC": 15,
+    "HP": 12,
+    "speed": 30,
+    "weapon": {
+      "name": "Light Crossbow",
+      "damage": "1d8+3 piercing",
+      "toHit": 5
+    }
+  },
+  "classFeatures": {
+    "spellcasting": {
+      "ability": "INT",
+      "saveDC": 13,
+      "attackBonus": 5
+    },
+    "infusions": ["Alchemical Fire"],
+    "cantrips": ["Mage Hand", "Mending", "Poison Spray", "Light"],
+    "spells": {
+      "1st": ["Cure Wounds", "Detect Magic", "Tasha's Hideous Laughter", "Searing Smite"],
+      "slots": {"1st": 4}
+    }
+  },
+  "raceTraits": {
+    "Stone Skin": "Advantage on Con saves vs. poison, resistance to poison damage",
+    "Wooden Reflexes": "+1 AC when not wearing heavy armor",
+    "Porcelain Fragility": "Vulnerable to fire (extra 1d4 fire damage on hit)"
+  },
+  "equipment": [
+    "Light Crossbow +2, 20 bolts",
+    "Leather Armor",
+    "Stonecutting Tool",
+    "Woodcarving Tool",
+    "Porcelain Sculpting Kit",
+    "Backpack, Bedroll, Rations, etc."
+  ],
+  "background": {
+    "trait": "I’m always calm, no matter the situation.",
+    "ideal": "Knowledge – The path to power is through understanding.",
+    "bond": "I owe my life to the master sculptor who taught me.",
+    "flaw": "I’m too trusting of those who appear to be of the stone or wood line."
+  }
+}

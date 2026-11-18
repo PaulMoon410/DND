@@ -1,0 +1,75 @@
+{
+  "name": "Dálej Úniór",
+  "race": "Stonewood Porcelain",
+  "class": "Artificer",
+  "level": 1,
+  "background": "Guild Artisan",
+  "player": "[Your Name]",
+  "alignment": "[Your Alignment]",
+  "experience": 0,
+  "ability_scores": {
+    "Strength": 10,
+    "Dexterity": 12,
+    "Constitution": 16,
+    "Intelligence": 15,
+    "Wisdom": 10,
+    "Charisma": 8
+  },
+  "proficiency_bonus": 2,
+  "saving_throws": {
+    "Intelligence": 5,
+    "Constitution": 4
+  },
+  "skills": {
+    "Arcana": 5,
+    "History": 5,
+    "Investigation": 5,
+    "Perception": 2,
+    "Sleight of Hand": 1,
+    "Stealth": 1
+  },
+  "race_traits": {
+    "Stone Skin": "Advantage on Con saves vs. poison, resistance to poison damage",
+    "Wooden Reflexes": "+1 AC when not wearing heavy armor",
+    "Porcelain Fragility": "Vulnerable to fire damage (extra 1d4 fire damage on hit)"
+  },
+  "tool_proficiencies": [
+    "Stonecutting Tools",
+    "Woodcarver Tools",
+    "Porcelain Sculpting Kit",
+    "Alchemist’s Supplies",
+    "Tinker’s Tools"
+  ],
+  "languages": [
+    "Common",
+    "Stone‑Language",
+    "Wood‑Language",
+    "Porcelain‑Language"
+  ],
+  "equipment": [
+    "Leather armor",
+    "Longsword",
+    "Arcane focus",
+    "Alchemist’s supplies",
+    "Tinker’s tools",
+    "Stonecutting tools",
+    "Woodcarver tools",
+    "Porcelain sculpting kit",
+    "Explorer’s pack"
+  ],
+  "spells": {
+    "cantrips": ["Mage Hand", "Mending", "Poison Spray", "Light"],
+    "first_level": ["Cure Wounds", "Detect Magic", "Tasha’s Hideous Laughter", "Searing Smite"]
+  },
+  "features": {
+    "infusions": ["Alchemical Fire"],
+    "magical_tinkering": "Create a tiny magical trinket that grants a benefit to you or an ally"
+  },
+  "personality": {
+    "trait": "[Insert trait]",
+    "ideal": "[Insert ideal]",
+    "bond": "[Insert bond]",
+    "flaw": "[Insert flaw]"
+  },
+  "notes": "Use this JSON for renderers that support D&D 5E character data."
+}
