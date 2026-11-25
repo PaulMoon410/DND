@@ -1,5 +1,5 @@
 {
-  "name": "Dálej Úníor",
+  "name": "Dahle Juhnior",
   "race": "Primordial Architect",
   "class": "Artificer",
   "level": 4,
@@ -10,7 +10,7 @@
   "currentAC": 0,
   "experience": {
     "current": 25,
-    "nextLevel": 400
+    "max": 400
   },
   "stamina": {
     "current": 20,
@@ -27,14 +27,17 @@
   },
   "items": [
     "4 glass bottles",
-    "Glass club thing (1d6)",
+    "glass club thing (1d6)",
     "1g 50s 170c",
-    "Voice muse",
+    "voice muse",
     "3 rivets",
     "4 springs",
-    "Jar of eyes",
-    "Rat human skeletons",
-    "Black rose bush"
+    "jar of eyes",
+    "rat human skeletons",
+    "black rose bush"
   ],
-  "equippedItems": ["Glass club (1d6)"]
+  "equippedItems": [
+    "Glass club (1d6)"
+  ],
+  "lastSyncedAt": "2026-11-25T04:04:15.795Z"
 }
